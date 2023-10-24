@@ -1,0 +1,65 @@
+:root{
+    --back: #f8f8f8;
+    --white: #ffffff;
+    --btn: #667b92;
+    --border: #dfdfdf;
+    --red: #d81b1f;
+    --black: #191919;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body{
+    font-family: 'Fraunces', serif;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+ul{
+    list-style: none;
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.bg{
+    background: url('../imgs/download.jpg') no-repeat center center/cover;
+    width: calc(100vw + 30px);
+    height: calc(100vh + 30px);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    filter: blur(30px);
+}
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    color: #fff;
+    font-size: 30px;
+    
+}
